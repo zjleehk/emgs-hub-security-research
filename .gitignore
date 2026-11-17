@@ -1,0 +1,25 @@
+# Never commit any reverse-engineering artifacts or binaries
+*.apk
+*.xapk
+*.dex
+*.aab
+*.so
+*.jar
+*.keystore
+*.jks
+
+# Decompiled / extracted trees and bundles
+jadx-out/
+decompiled/
+extracted/
+assets/
+public/
+*.bundle.js
+*.min.js
+main.js
+polyfills.js
+runtime.js
+
+# OS / editor
+.DS_Store
+node_modules/
